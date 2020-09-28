@@ -1,0 +1,668 @@
+/*
+filename: [Mihir's Homepage for lab03]
+author: Mihir]
+created: [17/08/2020]
+last modified: [17/08/202]
+description: [html files it refers to (if known)]
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+
+header{
+    background-color:rgba(0, 255, 242, 0.486) ;    
+    margin: 0;
+}
+
+.logo {
+    float:left;
+    height:125px;
+    width:175px;
+}
+
+h3 {
+    font-size: 35px;
+    color: black;
+}
+
+#Quote {
+    color: rgb(0, 255, 34);
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive; font-size: 50px;
+    text-shadow: black 10px 10px 10px;
+    margin-bottom: 75px;
+    
+}
+ 
+header::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    font-weight: 500;
+    text-shadow: white 4px 4px 20px;
+    background-image: url(./images/Mountain.jpg);
+}
+/* http://www.mountaindome.co.uk/ (background image)*/
+
+
+#t_heading {
+    padding-left: 100px;
+}
+
+#t_paragraph{
+    text-align: left;
+    margin-right: 55%;
+    top: 100px;
+    padding-left: 20px;
+    margin-left: 60px;
+    font-size: 18px;
+    border: 5px dotted black;
+    background-color: cornsilk;
+}
+
+table{
+    border: 5px solid black;
+    background-color: gold;
+    margin-left: 60px;
+}
+
+figcaption{
+    padding-left: 58px;
+}
+
+caption{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 218, 247);
+    border: 1px solid black;
+    background-color: white;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, th {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+nav ul{ 
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+
+nav li{
+    float: left;
+    margin-left: 200px;
+    padding-top: 100px;
+    font-size: 20px;
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: white
+}
+
+nav a::before{
+    content:"";
+    display: block;
+    height: 7px;
+    background-color:white;
+
+    position: absolute;
+    bottom: 30px;
+    width: 0%;
+
+    transition: ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width:100%;
+}
+
+#Mission {
+    text-align: center;
+    font-family: 'Lilita One', cursive; font-size: 70px;
+    color: black;
+    text-shadow: gold 10px 10px 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 8px 8px 19px;
+}
+
+h2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.paragraphs{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    border: 3px double rgb(255, 0, 0);
+    background-color:white ;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+aside{
+    text-align: right;
+    float: right;
+    border: 5px double white;
+    position: absolute;
+    color: rgb(1, 255, 22);
+    margin-left: 1000px;
+    margin-top: 50px;
+    margin-right: 31px;
+    background-color: rgba(245, 245, 245, 0.377);
+    text-shadow: black 10px 10px 15px;
+}
+
+div {
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive; font-size: 50px;
+    
+}
+
+#Future{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: 5px yellow solid;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+#list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style: circle;
+    display: list-item;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    margin-right: 100px;
+}
+
+#mlist {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style: square;
+    padding-bottom: 100px;
+    list-style-position: inside;
+   
+}
+
+footer{
+    background-color:rgba(0, 255, 242, 0.486);
+    position: fixed;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center; 
+    bottom: 0;  
+    
+}
+
+th {
+    background-color: aquamarine
+}
+
+form {
+    background-color: whitesmoke;
+    opacity: 94%;
+}
+
+.sending{
+    margin-bottom: 75px;
+}
+
+.sumpara{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.examples{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    position: relative;
+    right: 20px;
+    display: list-item;
+    list-style-position: inside;
+}
+
+.inside{
+    margin: 0%;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    display: list-item;
+    list-style-position: inside;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 10px;
+    position: relative;
+    text-align: left;
+}
+
+.futureofsearch{
+    border: 2px solid green;
+    background-color: khaki;
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+
+.olist{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Learn't how to make a triangle off else this is my own code - https://www.w3schools.com/howto/howto_css_shapes.asp */
+
+
+
+@keyframes triangle1{
+    0% {border-left-color: yellow; }
+    97% {border-right-color:skyblue;}
+    100% {border-right: 75px solid transparent;}
+    from {left: 0;}
+    to {left: 500px;}
+    89% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+
+#triangle1 {
+    animation-name: triangle1; 
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+    border-bottom: 100px solid #555;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+@keyframes triangle2{
+    0% {border-left-color: skyblue; }
+    90% {border-right-color:yellow;}
+    100% {border-right: 75px solid transparent;}
+    from {left: 650px;}
+    to {left: 1150px;}
+    to {left: 1050px;}
+    to {left: 1150px;}
+    from { opacity: 100%;}
+    99% {opacity: 100%;}
+    100% {opacity: 0%;}
+
+    
+}
+
+#triangle2 {
+    animation-name: triangle2; 
+    animation-delay: 3.7s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+    border-bottom: 100px solid #555;
+    left: 650px;
+    bottom: 100px;
+    position: relative;
+    margin-bottom: 0px;
+
+}
+@keyframes triangle3{
+    0% {border-left-color: yellow; }
+    25% {border-right-color:skyblue;}
+    50% {border-right-color: skyblue;}
+    75%{border-left-color: yellow;}
+    0% {left: 1300px;}
+    25% {left: 1400px;}
+    100% {left: 1300px;}
+    90% {opacity: 100%;}
+    100% {opacity: 0%;}
+    
+}
+
+#triangle3 {
+    animation-name: triangle3; 
+    animation-delay: 8.2s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+    border-bottom: 100px solid #555;
+    left: 1300px;
+    bottom: 200px;
+    position: relative;
+    margin-bottom: 0px;
+
+}
+
+@keyframes triangle2r{
+    0% {opacity: 0%;}
+    10% {opacity: 100%;}
+    100% {opacity: 100%;}
+    0% {border-right-color: yellow; }
+    50% {border-left-color:skyblue;}
+    95% {border-left-color:skyblue;}
+    from {left: 1150px;}
+    to {left: 650px;}
+    100% {border-right: 75px solid transparent;}
+
+    
+}
+
+#triangle2r {
+    animation-name: triangle2r; 
+    animation-delay: 11s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+    border-bottom: 100px solid #555;
+    left: 1150px;
+    bottom: 300px;
+    position: relative;
+    margin: 0%;
+    opacity: 0%;
+    margin-bottom: 0px;
+
+    }
+
+@keyframes triangle1r{
+    from {border-right-color: skyblue;}
+    to {border-left-color: yellow;}
+    from {opacity: 0%;}
+    10% {opacity: 100%;}
+    from {left: 500px;}
+    to {left: 0px;}
+    100% {border-left: 75px solid transparent;}
+    100% {opacity: 0%;}
+}
+
+#triangle1r {
+    animation-name: triangle1r;
+    animation-fill-mode: forwards;
+    animation-delay: 14.5s;
+    animation-duration: 6s;
+    width: 0;
+	height: 0;
+    border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+    border-bottom: 100px solid #555;
+    left: 500px;
+    bottom: 400px;
+    position: relative;
+    opacity: 0%;
+    margin-bottom: 0px;
+}
+
+#enhancementshtml{
+    border: 3px solid black;
+    background-color: whitesmoke;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+/* THE FOLLOWING CODE IS RESPONSIBLE FOR SIZIING IN SMALL MOBILE SCREENS */
+
+@media only screen and (max-width:375px) {
+
+    *{
+        max-width: 100%;
+    }
+
+
+    .b_reflow{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .banner{
+        display: inline-block;
+        width: 100%;
+        height: 150px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .n_reflow {
+        margin: 0px;
+        display: block;
+        position: relative;
+        max-width: 100%;
+        top: 1px;
+        padding-top:1px ;
+    }
+
+    nav li{
+      width: 100%;
+      margin: 0%;
+      padding: 2%;
+      float: none;
+    
+    }
+
+    nav a {
+      width: 100%;
+      padding-left: 10px;
+    }
+
+    .logo{
+        width: 50%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #Mission {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    #Quote{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    div{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #triangle1{
+        display: none;
+    }
+
+    
+    #triangle2{
+        display: none;
+    }
+
+    
+    #triangle3{
+        display: none;
+    }
+    
+    #triangle2r{
+        display: none;
+    }
+    
+    #triangle1r{
+        display: none;
+    }
+
+    footer{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .logo{
+        max-width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    fieldset{
+        width:100%;
+        
+    }
+
+    #enhancementshtml{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    
+    *{
+        max-width: 100%;
+    }
+
+
+    .b_reflow{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .banner{
+        display: inline-block;
+        width: 100%;
+        height: 150px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .n_reflow {
+        margin: 0px;
+        display: block;
+        position: relative;
+        max-width: 100%;
+        top: 1px;
+        padding-top:1px ;
+    }
+
+    nav li{
+      width: 100%;
+      margin: 0%;
+      padding: 2%;
+      float: none;
+    
+    }
+
+    nav a {
+      width: 100%;
+      padding-left: 10px;
+    }
+
+    .logo{
+        width: 50%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #Mission {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    #Quote{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    div{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    footer{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .logo{
+        max-width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    fieldset{
+        width:100%;
+        
+    }
+
+    #enhancementshtml{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+    
+}
+    /* I have watched a video in relation to creating an interactive navigation bar video url is https://www.youtube.com/watch?v=FEmysQARWFU */

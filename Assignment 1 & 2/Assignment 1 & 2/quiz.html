@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+  <meta name="description" content="Homepage" />
+  <meta name="keywords" content="HTML5, tags" />
+  <meta name="author" content="Mihir"  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="styles/style.css" rel="stylesheet" >
+  <link rel="icon" type="image/png" href="./images/favicon.ico">
+  <script type="text/javascript" src="./scripts/quiz.js"></script> 
+  <title>Quiz</title>
+</head>
+
+<body>
+    <header> 
+    <a href="index.html" >
+        <img src="styles/images/logo.png" alt="logo" class="logo"></a>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="topic.html">Topic</a></li> 
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="enhancements.html">Enhancements</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <!--This page is pretty much built on lab 2 helpdesk we did in week 2-->
+    
+    <form id="myform" method="POST" action="Result.html" novalidate="novalidate">
+        <fieldset>
+            <legend>Student Details </legend>
+            <p><label for="StudentID">Student ID</label>    
+                <input type="text" name= "StudentID" id="studentID" maxlength="10" pattern="\d{7}|\d{10}" title="Please ensure you are writting your Student ID correctly (numbers only)" size="10" required="required"/>
+            </p>
+    
+            <p><label for="givenname">Given Name </label>
+                <input type="text" pattern="[A-Za-z-\s]+" name="givenname" id="givenname" maxlength="25" size="10" required="required"/>
+            </p>
+
+            <p><label for="familyname">Family Name </label>
+                <input type="text" pattern="[^0-9]+" name="familyname" id="familyname" maxlength="25" size="10" required="required"/>
+            </p>
+        
+            </fieldset>
+
+        <fieldset>  
+            <legend>Questions </legend> 
+            <p> 1) What is the most famous search engine in the world</p>
+            <p><input type="radio" name="most_famous_search_engine" id="google" value="Google" required="required" /> 
+                <label for="Google">Google </label>
+            
+            <input type="radio" name="most_famous_search_engine" id="bing" value="Bing" />
+                <label for="Bing">Bing</label>
+                
+            <input type="radio" name="most_famous_search_engine" id="yahoo" value="Yahoo!" />
+                <label for="Yahoo!">Yahoo!</label>
+            </p>
+    
+            <p><label for="first_search_engine">2) What is the first search engine called?</label>
+                <br>
+                <select name="first_search_engine?" id="first_search_engine" required="required">
+                    <option value="">Please Select</option>
+                    <option value="Google">Google</option>
+                    <option value="Bing">Bing</option>
+                    <option id="archie" value="Archie">Archie</option>
+                </select>
+            </p>
+
+
+            <p> 3) Which one of these are <strong><u> NOT</u></strong> a search engine?</p>
+            <p><label for="Google">Google </label>
+                <input type="checkbox" name="Not_search_engine" id="google_e" />
+    
+            <label for="Yahoo">Yahoo!</label>
+                <input type="checkbox" name="Not_search_engine" id="yahoo_e" />
+    
+            <label for="JavaScript">Javascript</label>
+                <input type="checkbox" name="Not_search_engine" id="javaScript" />
+    
+            <label for="Aliexpress">Aliexpress</label>
+                <input type="checkbox" name="Not_search_engine" id="aliexpress" />
+    
+            <label for="DuckDuckGo">DuckDuckGo</label>
+                <input type="checkbox" name="Not_search_engine" id="duckDuckGo" />
+
+            
+            <p><label for="define_search_engine"> 4) Summarise/define what a web search engine is </label>
+                <br>
+                <textarea id="define_search_engine" name="define_search_engine" placeholder="Write your answer here..." rows="6" cols="50"></textarea>
+            </p>
+
+            <p>5) What percentage of the internet uses Google (rounded to 2 figures) </p>
+            <input type="text" name="percentage_of_usage_of_google" id="percentage_of_usage_of_google" pattern="\d*" />
+           <br>
+           <br>
+         <input class="sending" type="submit" value="Book"/>   
+         <input class="sending" type= "reset" value="Reset Form" onclick="storeInformation()" /> 
+        </fieldset>  
+    </form>
+
+<footer> 
+     <p> Contact Information: <a  href="mailto:103075328@student.swin.edu.au">Mihir Bhadauria's Email</a></p>
+</footer>
+
+</body>
+</html>
